@@ -1,0 +1,28 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "node todo list api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seshuk/nodepractice/RESTfulAPI.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Sample"
+  ],
+  "author": "Seshu Koorella",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.16"
+  }
+}
